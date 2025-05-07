@@ -5,7 +5,7 @@ import java.util.List;
 
 public class WildcardExample4 {
 
-	// 절대 Unbounded Wildcard 배열을 쓰지 마세요!!
+	// 절대 Unbounded Wildcard 배열을 쓰지 마세요!
     public static List<?>[] getWildcardArray() {
         List<?>[] arr = new List<?>[2];
         arr[0] = List.of("One", "Two");
