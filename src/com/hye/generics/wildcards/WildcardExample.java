@@ -14,7 +14,7 @@ public class WildcardExample {
     public static void main(String[] args) {
         List<?> list = getUnboundedList();
         for (Object o : list) {
-            System.out.println(o); // 출력: Hello
+            System.out.println(o); //출력: Hello
         }
     }
 }
